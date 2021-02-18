@@ -1,0 +1,1 @@
+java -Dwebdriver.ie.driver="C:\IEDriverServer.exe" -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub http://10.0.100.152:4444/grid/register -port 6655 -maxSession 5 -browser browserName="internet explorer",maxInstances=5
